@@ -4,6 +4,9 @@
 // import FlashCards from "./components/FlashCards";
 import TraveTodos from "./components/TravelTodos";
 import Accordion from "./components/Accordion";
+import TipCalculator from "./components/TipCalculator";
+
+import "./TipCalculator.css"
 import "./Accordion.css";
 import "./TravelTodos.css";
 function App() {
@@ -11,6 +14,7 @@ function App() {
     <div className="App">
       <TraveTodos />
       <Accordion />
+      <TipCalculator />
     </div>
   );
 }
